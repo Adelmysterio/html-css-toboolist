@@ -1,20 +1,120 @@
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Stile Generale */
 
 header {
     background-color: white;
+    height: 6rem;
 }
 
+
 .logo {
-    height: 5rem;
+    height: 4rem;
     vertical-align: middle;
+    margin: 1rem 0 1rem 1.5rem;
 }
 
 h1 {
-    display: inline;
+    display: inline-block;
     font-size: 3rem;
     vertical-align: middle;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+
+.container {
+    margin: 50px auto;
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    max-width: 1000px;
+    border-radius: 1%;
+}
+
+hr {
+    height: 2px;
+    background: rgb(245, 245, 245);
+    border: 0;
+}
+
+/* Task */
+
+.macro-task {
+    list-style-type: disclosure-open;
+    padding: 3rem 6.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.micro-task{
+list-style: none;
+padding: .5rem;
+font-weight: 400;
+}
+
+/* Bottoni */
+
+.button-area {
+    display: inline-block;
+    margin: 1rem 5rem;
+}
+
+.blue-button {
+    background-color: #47adf1;
+    color: white;
+    padding: .5rem .75rem;
+    border: 0;
+    border-radius: 7%;
+    font-weight: bold;
+}
+
+.white-button {
+    background-color: white;
+    padding: .5rem .75rem;
+    color: rgb(201, 201, 201);
+    border: 2px rgb(201, 201, 201) solid;
+    border-radius: 7%;
+    font-weight: bold;
+}
+
+.checked {
+    display: inline-block;
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+/*  Colori  */
+.orange {
+    background-color: #f29e33;
+}
+
+.purple {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.greenish {
+    background-color: #b0c926;
+}
+
+.pink {
+    background-color: #d863a1;
 }
