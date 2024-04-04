@@ -8,6 +8,10 @@
 
 /* Stile Generale */
 
+body {
+    background-color: rgb(245, 245, 245);
+}
+
 header {
     background-color: white;
     height: 6rem;
@@ -25,11 +29,6 @@ h1 {
     font-size: 3rem;
     vertical-align: middle;
 }
-
-body {
-    background-color: rgb(245, 245, 245);
-}
-
 
 .container {
     margin: 50px auto;
@@ -55,7 +54,7 @@ hr {
     font-weight: bold;
 }
 
-.micro-task{
+.micro-task {
 list-style: none;
 padding: .5rem;
 font-weight: 400;
@@ -117,8 +116,24 @@ li {
     font-weight: bold;
 }
 
+/* Tag */
 
+.tag-box {
+    display: inline-block;
+    font-size: .75rem;
+    color: white;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 20px;
+    line-height: 1rem;
+    vertical-align: middle;
+}
 /*  Colori  */
+
+.blue {
+    background-color: #47adf1;
+} 
+
 .orange {
     background-color: #f29e33;
 }
