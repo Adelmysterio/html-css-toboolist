@@ -34,7 +34,7 @@ body {
 .container {
     margin: 50px auto;
     background-color: white;
-    height: 700px;
+    height:750px;
     width: 1000px;
     max-width: 1000px;
     border-radius: 1%;
@@ -61,12 +61,43 @@ padding: .5rem;
 font-weight: 400;
 }
 
+li {
+    padding-top: .5rem ;
+}
+
+.checked {
+    display: inline-block;
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.unchecked {display: inline-block;
+    font-size: 1.2rem;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+
 /* Bottoni */
 
 .button-area {
     display: inline-block;
     margin: 1rem 5rem;
 }
+
 
 .blue-button {
     background-color: #47adf1;
@@ -86,17 +117,6 @@ font-weight: 400;
     font-weight: bold;
 }
 
-.checked {
-    display: inline-block;
-    color: green;
-    background-color: transparent;
-    border: 2px solid green;
-    border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
-    text-align: center;
-    line-height: 2rem;
-}
 
 /*  Colori  */
 .orange {
